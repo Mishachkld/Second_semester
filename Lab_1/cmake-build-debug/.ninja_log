@@ -1,0 +1,9 @@
+# ninja log v5
+17	1952	6977582510306897	CMakeFiles/Lab_1.dir/main.cpp.obj	139640c39fd2e844
+9	1915	6977582509927034	CMakeFiles/Lab_1.dir/AnimatedText.cpp.obj	f9959354d4219d21
+23	2238	6977582513175863	CMakeFiles/Lab_1.dir/SFML/AnimationEngine.cpp.obj	6fd23e2b849cba84
+2238	3204	6977582522741012	Lab_1.exe	84115fb6feda6a46
+2	219	7032002824838277	build.ninja	bcacc9a67646ebba
+45	1618	7032002870676591	CMakeFiles/Lab_1.dir/main.cpp.obj	8aed76033a291de
+26	1623	7032002870686588	CMakeFiles/Lab_1.dir/AnimatedText.cpp.obj	4d0619fb7e896658
+66	1812	7032002872575882	CMakeFiles/Lab_1.dir/SFML/AnimationEngine.cpp.obj	3b3f3cc4050817aa

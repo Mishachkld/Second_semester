@@ -1,0 +1,5 @@
+# ninja log v5
+12	893	7054409857340597	build.ninja	e0d652eb71b89525
+7	1375	6996381355162426	CMakeFiles/Lab_2.dir/CustomString/CustomString.cpp.obj	c001561fa6f92b0e
+6	1040	6996381827585868	CMakeFiles/Lab_2.dir/main.cpp.obj	8f33363d2c515459
+1041	1271	6996381829815025	Lab_2.exe	4cc629f7108a0299

@@ -1,0 +1,47 @@
+cmake_minimum_required(VERSION 3.23)
+project(Practice_3)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+
+
+add_definitions(-DSFML_STATIC)		 # дефайны
+
+include_directories("ext/SFML/include/")	# добавляем директории
+include_directories("inc/")
+link_directories("ext/SFML/lib/")
+
+add_executable(Practice_3
+        main.cpp
+        KinematicSolver/KinematicSolver.cpp
+        KinematicSolver/KinematicSolver.hpp)
+
+target_link_libraries("Practice_3"
+        debug sfml-graphics-s-d
+        debug sfml-window-s-d
+        debug sfml-system-s-d
+        debug sfml-audio-s-d)
+
+target_link_libraries("Practice_3"
+        optimized sfml-graphics-s
+        optimized sfml-window-s
+        optimized sfml-system-s
+        optimized sfml-audio-s)
+
+target_link_libraries("Practice_3" opengl32 freetype winmm gdi32 openal32 flac vorbisenc vorbisfile vorbis ogg)
+
+
+target_link_libraries("Practice_3" sfml-graphics-s
+        sfml-window-s
+        sfml-system-s
+        opengl32
+        freetype
+        winmm
+        gdi32
+        sfml-audio-s
+        openal32
+        flac
+        vorbisenc
+        vorbisfile
+        vorbis)
