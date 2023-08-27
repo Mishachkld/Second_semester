@@ -1,3 +1,0 @@
-D:/Development/C++Project/Second semester/Test/cmake-build-debug/CMakeFiles/Mrpg.dir
-D:/Development/C++Project/Second semester/Test/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Development/C++Project/Second semester/Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
